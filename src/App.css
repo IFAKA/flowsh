@@ -1,0 +1,32 @@
+#root {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 1.2rem;
+  text-align: center;
+  user-select: none;
+  width: 100%;
+}
+
+.todos {
+  height: 171px;
+  overflow: auto;
+  border: 1px solid #1a1a1a;
+}
+.todos::-webkit-scrollbar {
+  display: none;
+}
+
+.todo {
+  padding-left: 0.9em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  border: 1px solid #1a1a1a;
+}
+
+.add-todo {
+  padding: 1.2em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
